@@ -2,9 +2,9 @@ name: Java Checkstyle
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "aniketh98-new-ci-workflow" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "aniketh98-new-ci-workflow" ]
 
 jobs:
   checkstyle_job:
