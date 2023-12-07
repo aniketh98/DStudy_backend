@@ -1,0 +1,39 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.3)
+
+2023-12-05T07:51:48.488Z  INFO 7620 --- [           main] c.a.jwt.backend.BackendApplication       : Starting BackendApplication v0.0.1-SNAPSHOT using Java 17.0.9 with PID 7620 (/home/ubuntu/DStudy_backend/target/backend-0.0.1-SNAPSHOT.jar started by ubuntu in /home/ubuntu/DStudy_backend)
+2023-12-05T07:51:48.500Z  INFO 7620 --- [           main] c.a.jwt.backend.BackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-05T07:51:50.375Z  INFO 7620 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-05T07:51:50.531Z  INFO 7620 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 1 JPA repository interfaces.
+2023-12-05T07:51:52.077Z  INFO 7620 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-05T07:51:52.101Z  INFO 7620 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-05T07:51:52.101Z  INFO 7620 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-12-05T07:51:52.385Z  INFO 7620 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-05T07:51:52.395Z  INFO 7620 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3742 ms
+2023-12-05T07:51:52.780Z  INFO 7620 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-05T07:51:53.210Z  INFO 7620 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:b05327d9-1ac4-4779-a1e5-e55d6f979fab user=SA
+2023-12-05T07:51:53.212Z  INFO 7620 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-05T07:51:53.319Z  INFO 7620 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-05T07:51:53.439Z  INFO 7620 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-12-05T07:51:53.441Z  INFO 7620 --- [           main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-12-05T07:51:53.743Z  INFO 7620 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-12-05T07:51:54.029Z  INFO 7620 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-05T07:51:54.775Z  INFO 7620 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-12-05T07:51:55.954Z  INFO 7620 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-05T07:51:56.053Z  INFO 7620 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-05T07:51:56.943Z  WARN 7620 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-05T07:51:56.994Z  WARN 7620 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 24969357-1fac-44d9-bd73-2657e42ece40
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-05T07:51:57.584Z  INFO 7620 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1a6dc589, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@697a34af, org.springframework.security.web.context.SecurityContextHolderFilter@608fe01f, org.springframework.security.web.header.HeaderWriterFilter@26c89563, org.springframework.security.web.authentication.logout.LogoutFilter@7d78f3d5, com.aniketh.jwt.backend.config.JwtAuthFilter@70211df5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a75ec37, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33956d1a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c5228e7, org.springframework.security.web.session.SessionManagementFilter@354e7004, org.springframework.security.web.access.ExceptionTranslationFilter@20d87335, org.springframework.security.web.access.intercept.AuthorizationFilter@48976e6d]
+2023-12-05T07:51:58.229Z  INFO 7620 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-05T07:51:58.271Z  INFO 7620 --- [           main] c.a.jwt.backend.BackendApplication       : Started BackendApplication in 10.836 seconds (process running for 12.051)

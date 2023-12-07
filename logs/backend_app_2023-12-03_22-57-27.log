@@ -1,0 +1,42 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.3)
+
+2023-12-03T22:57:31.361Z  INFO 23311 --- [           main] c.a.jwt.backend.BackendApplication       : Starting BackendApplication v0.0.1-SNAPSHOT using Java 17.0.9 with PID 23311 (/home/ubuntu/DStudy_backend/target/backend-0.0.1-SNAPSHOT.jar started by root in /home/ubuntu/DStudy_backend)
+2023-12-03T22:57:31.375Z  INFO 23311 --- [           main] c.a.jwt.backend.BackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-03T22:57:33.268Z  INFO 23311 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-03T22:57:33.429Z  INFO 23311 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 142 ms. Found 1 JPA repository interfaces.
+2023-12-03T22:57:34.991Z  INFO 23311 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-03T22:57:35.014Z  INFO 23311 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-03T22:57:35.015Z  INFO 23311 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-12-03T22:57:35.308Z  INFO 23311 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-03T22:57:35.311Z  INFO 23311 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3786 ms
+2023-12-03T22:57:35.693Z  INFO 23311 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-03T22:57:36.151Z  INFO 23311 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:98731cea-a4af-4adf-a639-01c6802ebded user=SA
+2023-12-03T22:57:36.153Z  INFO 23311 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-03T22:57:36.257Z  INFO 23311 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-03T22:57:36.380Z  INFO 23311 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-12-03T22:57:36.388Z  INFO 23311 --- [           main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-12-03T22:57:36.667Z  INFO 23311 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-12-03T22:57:36.933Z  INFO 23311 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-03T22:57:37.750Z  INFO 23311 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-12-03T22:57:38.907Z  INFO 23311 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-03T22:57:39.009Z  INFO 23311 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-03T22:57:39.952Z  WARN 23311 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-03T22:57:40.011Z  WARN 23311 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d51a298b-b44f-4353-957b-ed5253cdb4df
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-03T22:57:40.626Z  INFO 23311 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5a8ab2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f50b680, org.springframework.security.web.context.SecurityContextHolderFilter@6ab4a5b, org.springframework.security.web.header.HeaderWriterFilter@75a0c890, org.springframework.security.web.authentication.logout.LogoutFilter@5875de6a, com.aniketh.jwt.backend.config.JwtAuthFilter@54db056b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@235d29d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@43f9dd56, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d5af0a5, org.springframework.security.web.session.SessionManagementFilter@44ed0a8f, org.springframework.security.web.access.ExceptionTranslationFilter@9679750, org.springframework.security.web.access.intercept.AuthorizationFilter@5b7c8930]
+2023-12-03T22:57:41.296Z  INFO 23311 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-03T22:57:41.351Z  INFO 23311 --- [           main] c.a.jwt.backend.BackendApplication       : Started BackendApplication in 11.0 seconds (process running for 12.258)
+2023-12-03T22:58:33.192Z  INFO 23311 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-03T22:58:33.199Z  INFO 23311 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-03T22:58:33.207Z  INFO 23311 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

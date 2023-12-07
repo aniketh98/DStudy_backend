@@ -1,0 +1,57 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.3)
+
+2023-12-03T23:18:15.730Z  INFO 23528 --- [           main] c.a.jwt.backend.BackendApplication       : Starting BackendApplication v0.0.1-SNAPSHOT using Java 17.0.9 with PID 23528 (/home/ubuntu/DStudy_backend/target/backend-0.0.1-SNAPSHOT.jar started by root in /home/ubuntu/DStudy_backend)
+2023-12-03T23:18:15.747Z  INFO 23528 --- [           main] c.a.jwt.backend.BackendApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-03T23:18:17.582Z  INFO 23528 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-03T23:18:17.742Z  INFO 23528 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 139 ms. Found 1 JPA repository interfaces.
+2023-12-03T23:18:19.239Z  INFO 23528 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-03T23:18:19.256Z  INFO 23528 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-03T23:18:19.256Z  INFO 23528 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+2023-12-03T23:18:19.540Z  INFO 23528 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-03T23:18:19.544Z  INFO 23528 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3658 ms
+2023-12-03T23:18:19.955Z  INFO 23528 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-03T23:18:20.379Z  INFO 23528 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:9f309b9e-2f58-4fb3-9ede-29206b88a6cb user=SA
+2023-12-03T23:18:20.381Z  INFO 23528 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-03T23:18:20.493Z  INFO 23528 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-03T23:18:20.614Z  INFO 23528 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-12-03T23:18:20.620Z  INFO 23528 --- [           main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-12-03T23:18:20.920Z  INFO 23528 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-12-03T23:18:21.172Z  INFO 23528 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-12-03T23:18:21.961Z  INFO 23528 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-12-03T23:18:23.133Z  INFO 23528 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-03T23:18:23.222Z  INFO 23528 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-03T23:18:24.132Z  WARN 23528 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-12-03T23:18:24.187Z  WARN 23528 --- [           main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 42a10088-524b-4f13-9692-ec68ae80b3d2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-12-03T23:18:24.788Z  INFO 23528 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1a6dc589, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@697a34af, org.springframework.security.web.context.SecurityContextHolderFilter@608fe01f, org.springframework.security.web.header.HeaderWriterFilter@26c89563, org.springframework.security.web.authentication.logout.LogoutFilter@7d78f3d5, com.aniketh.jwt.backend.config.JwtAuthFilter@70211df5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a75ec37, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33956d1a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c5228e7, org.springframework.security.web.session.SessionManagementFilter@354e7004, org.springframework.security.web.access.ExceptionTranslationFilter@20d87335, org.springframework.security.web.access.intercept.AuthorizationFilter@48976e6d]
+2023-12-03T23:18:25.450Z  INFO 23528 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-03T23:18:25.493Z  INFO 23528 --- [           main] c.a.jwt.backend.BackendApplication       : Started BackendApplication in 10.81 seconds (process running for 12.045)
+2023-12-04T00:14:59.086Z  INFO 23528 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-04T00:14:59.087Z  INFO 23528 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-04T00:14:59.092Z  INFO 23528 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-04T02:15:54.500Z  INFO 23528 --- [nio-8080-exec-1] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x00{0x010x000x00w0x030x030xb70x8e00xb60xd10xb0$0x820x1f\0x800xa80x000xc4q0xf9`0xc90x160xa60xb00xbe0xab%0x82&0x100xf60xb00xba=0xb80x000x000x1a0xc0/0xc0+0xc00x110xc00x070xc00x130xc00x090xc00x140xc00x0a0x000x050x00/0x0050xc00x120x000x0a0x010x000x0040x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x100x000x0e0x040x010x040x030x020x010x020x030x040x010x050x010x060x010xff0x010x000x010x00...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407) ~[tomcat-embed-core-10.1.12.jar!/:na]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:264) ~[tomcat-embed-core-10.1.12.jar!/:na]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.12.jar!/:na]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.12.jar!/:na]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.12.jar!/:na]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.12.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.12.jar!/:na]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.12.jar!/:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.12.jar!/:na]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
